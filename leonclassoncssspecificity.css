@@ -1,0 +1,25 @@
+/*Please make "This is an ad..."blue,but make sure it is specific 
+enough that you can add other h3's somewhere else in the document.
+*/
+#rugratswildThornberrysbestcrossoveralltime h3 {
+    color: blue;
+}
+
+/*class="extraExtrareadallAboutit" can be used for simple specificity*/
+
+/*Please make "I like turtles" red*/
+#chunkymilk h2 {
+    color: red;
+}
+
+/*Please select"Hello,world"with the highest level of 
+specificity possible*/
+html head+body header.top+section#rugratswildThornberrysbestcrossoveralltime>h2 {
+    color: purple !important;
+}
+
+/*Please select"Lets get down to business..."with the highest level of 
+specificity possible*/
+html head+body header.top+section#rugratswildThornberrysbestcrossoveralltime+section#chunkymilk h2+p.passTheRemoteturtles {
+    color: green !important;
+}

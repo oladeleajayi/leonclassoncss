@@ -1,0 +1,26 @@
+
+/*please make only World and Zebra blue*/
+section > h2{
+    color: blue;
+}
+/*please make only Zebra purple*//*Alternativelyy without using class "section>h2+h2 "can also be used.*/
+ /*().Zebra{                                  
+   color:purple;                    
+}*/
+section >h2+h2{
+    color: purple;
+
+    }
+
+/*please make only Hufflepuff Gold*//*Alternativelyy without using id "article>h2+h2 "can also be used.*/
+/*#hufflepuff{
+    color: gold;
+}*/
+
+article>h2+h2{
+        color: gold;
+    }
+/*please make Hufflepuff Gold amd make ONLY Unicorn Gray*/
+section h2{
+    color: gray;
+}

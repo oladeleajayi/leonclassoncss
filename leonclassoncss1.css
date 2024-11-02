@@ -1,0 +1,33 @@
+ /*Please make the li's blue, underlined,15px,and have a gray background*/
+ li{
+  display:inline;
+  margin: 50px;
+  padding-left: 50px;
+   background-color:gray;
+    color:blue;
+    text-decoration:underline;
+    font-size:15px;
+ }
+   /* Please make this section have a height of 300px,a light purple background,
+     and a gold border that is 5px thick*/
+     section{
+        height: 300px;
+        border: 5px solid gold; 
+        background-color: rgb(126, 66, 126); 
+          }
+          /*Please make this h1 30px,gold,centered,and use the source sans pro font*/
+          h1{
+             text-align:center;
+             color: gold;
+             height: 30px;
+             font-family: 'source sans pro','Helvetica','sans-serif';   
+          }
+          /*please make this footer have  dark brown background,300px in height,and only 70% width*/
+          footer{
+            background-color:rgba(49, 1, 1, 0.925);
+            height: 300px;
+            width: 70%;
+          }
+          h2{
+             text-decoration: line-through;
+          }
